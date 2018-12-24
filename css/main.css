@@ -1998,11 +1998,9 @@ input::-moz-focus-inner {
  * ## home content
  * ------------------------------------------------------------------- */
 .home-content {
-  display: table-cell;
   width: 100%;
   height: 100vh;
-  vertical-align: bottom;
-  padding-bottom: 21rem;
+  padding-top: 35vh;
   overflow: hidden;
   position: relative;
 }
