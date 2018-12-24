@@ -3397,7 +3397,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
   padding-top: 18rem;
-  padding-bottom: 12rem;
+  padding-bottom: 0rem;
   background-color: #151515;
   position: relative;
 }
@@ -3654,6 +3654,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.03);
   color: rgba(255, 255, 255, 0.3);
   position: relative;
+  margin-top: 12rem;
 }
 
 footer a,
