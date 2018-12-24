@@ -2524,7 +2524,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-process .col-block {
-  margin-bottom: 1.8rem;
+  margin-bottom: 3rem;
 }
 
 .about-process .col-block:nth-child(2n+1) > * {
