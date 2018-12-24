@@ -1028,35 +1028,35 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=fade-up] {
-  transform: translateY(100px);
+  transform: translateY(50px);
 }
 
 [data-aos=fade-down] {
-  transform: translateY(-100px);
+  transform: translateY(-50px);
 }
 
 [data-aos=fade-right] {
-  transform: translate(-100px);
+  transform: translate(-50px);
 }
 
 [data-aos=fade-left] {
-  transform: translate(100px);
+  transform: translate(50px);
 }
 
 [data-aos=fade-up-right] {
-  transform: translate(-100px, 100px);
+  transform: translate(-50px, 50px);
 }
 
 [data-aos=fade-up-left] {
-  transform: translate(100px, 100px);
+  transform: translate(50px, 50px);
 }
 
 [data-aos=fade-down-right] {
-  transform: translate(-100px, -100px);
+  transform: translate(-50px, -50px);
 }
 
 [data-aos=fade-down-left] {
-  transform: translate(100px, -100px);
+  transform: translate(50px, -50px);
 }
 
 [data-aos^=zoom][data-aos^=zoom] {
@@ -1074,19 +1074,19 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=zoom-in-up] {
-  transform: translateY(100px) scale(0.6);
+  transform: translateY(50px) scale(0.6);
 }
 
 [data-aos=zoom-in-down] {
-  transform: translateY(-100px) scale(0.6);
+  transform: translateY(-50px) scale(0.6);
 }
 
 [data-aos=zoom-in-right] {
-  transform: translate(-100px) scale(0.6);
+  transform: translate(-50px) scale(0.6);
 }
 
 [data-aos=zoom-in-left] {
-  transform: translate(100px) scale(0.6);
+  transform: translate(50px) scale(0.6);
 }
 
 [data-aos=zoom-out] {
@@ -1094,19 +1094,19 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=zoom-out-up] {
-  transform: translateY(100px) scale(1.2);
+  transform: translateY(50px) scale(1.2);
 }
 
 [data-aos=zoom-out-down] {
-  transform: translateY(-100px) scale(1.2);
+  transform: translateY(-50px) scale(1.2);
 }
 
 [data-aos=zoom-out-right] {
-  transform: translate(-100px) scale(1.2);
+  transform: translate(-50px) scale(1.2);
 }
 
 [data-aos=zoom-out-left] {
-  transform: translate(100px) scale(1.2);
+  transform: translate(50px) scale(1.2);
 }
 
 [data-aos^=slide][data-aos^=slide] {
