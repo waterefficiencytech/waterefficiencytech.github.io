@@ -2556,20 +2556,24 @@ html.no-csstransitions .home-content__main {
   left: 0;
 }
 
-.about-process .item-process__header--planning::before {
-  background-image: url(../images/icons/icon-planning.svg);
+.about-process .item-process__header--efficiency-measures::before {
+  background-image: url(../images/icons/icon-efficiency-measures.svg);
 }
 
-.about-process .item-process__header--branding::before {
-  background-image: url(../images/icons/icon-branding.svg);
+.about-process .item-process__header--water-balance::before {
+  background-image: url(../images/icons/icon-facility-water-balance.svg);
 }
 
-.about-process .item-process__header--implementation::before {
-  background-image: url(../images/icons/icon-implementation.svg);
+.about-process .item-process__header--remote-monitoring::before {
+  background-image: url(../images/icons/icon-remote-monitoring.svg);
 }
 
-.about-process .item-process__header--documentation::before {
-  background-image: url(../images/icons/icon-documentation.svg);
+.about-process .item-process__header--sub-metering::before {
+  background-image: url(../images/icons/icon-sub-metering.svg);
+}
+
+.about-process .item-process__header--audit::before {
+  background-image: url(../images/icons/icon-audit.svg);
 }
 
 
