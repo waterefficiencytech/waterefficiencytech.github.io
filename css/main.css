@@ -70,6 +70,23 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
 }
+
+@media only screen and (max-width:600px) {
+  .medium-widget-article__image img {
+    width: 150;
+  }
+  .medium-widget-article__description {
+  
+  }
+  }
+  .medium-widget-article__title {
+  
+  }
+  .medium-widget-article__row {
+  flex-direction: column;
+  }
+}
+
     
 /* ===================================================================
  * # base style overrides
