@@ -71,16 +71,14 @@
     font-size: 1.4rem;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1080px) {
   .medium-widget-article__image img {
-    width: 150;
+    width: 150px;
   }
   .medium-widget-article__description {
-  
   }
   }
   .medium-widget-article__title {
-  
   }
   .medium-widget-article__row {
   flex-direction: column;
