@@ -71,17 +71,16 @@
     font-size: 1.4rem;
 }
 
-@media screen and (max-width:1080px) {
+@media only screen and (max-width: 1080px) {
   .medium-widget-article__image img {
     width: 20px;
   }
   .medium-widget-article__description {
   }
-  }
   .medium-widget-article__title {
   }
   .medium-widget-article__row {
-  flex-direction: column !important;
+  flex-direction: column;
   }
 }
 
