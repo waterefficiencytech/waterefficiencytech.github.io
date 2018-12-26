@@ -73,14 +73,10 @@
 
 @media only screen and (max-width: 1080px) {
   .medium-widget-article__image img {
-    width: 20px;
-  }
-  .medium-widget-article__description {
-  }
-  .medium-widget-article__title {
+    width: 20px !important;
   }
   .medium-widget-article__row {
-  flex-direction: column;
+  flex-direction: column !important;
   }
 }
 
