@@ -47,7 +47,11 @@
  *
  * =================================================================== */
 
-
+.medium-widget-article__image img {
+    width: 150px;
+    margin-right: 15px;
+    max-width: inherit;
+}
 
 /* ===================================================================
  * # base style overrides
