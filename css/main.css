@@ -71,7 +71,7 @@
     font-size: 1.4rem;
 }
 
-@media only screen and (max-width:1080px) {
+@media screen and (max-width:1080px) {
   .medium-widget-article__image img {
     width: 20px;
   }
