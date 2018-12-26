@@ -3387,6 +3387,149 @@ html.no-csstransitions .home-content__main {
 
 }
 
+/* ===================================================================
+ * # case studies
+ *
+ * ------------------------------------------------------------------- */
+.s-about {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.case-studies-process {
+  margin-top: 8.4rem;
+}
+
+.case-studies-process h3 {
+  margin-top: 0;
+  margin-left: 7.5rem;
+}
+
+.case-studies-process .col-block {
+  margin-bottom: 3rem;
+}
+
+.case-studies-process .col-block:nth-child(2n+1) > * {
+  margin-right: 25px;
+}
+
+.case-studies-process .col-block:nth-child(2n+2) > * {
+  margin-left: 25px;
+}
+
+.case-studies-process .item-process__header {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.case-studies-process .item-process__header::before {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transform: translate3d(0, -30%, 0);
+  -ms-transform: translate3d(0, -30%, 0);
+  transform: translate3d(0, -30%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.case-studies-process .item-process__header--efficiency-measures::before {
+  background-image: url(../images/icons/icon-efficiency-measures.svg);
+}
+
+.case-studies-process .item-process__header--water-balance::before {
+  background-image: url(../images/icons/icon-facility-water-balance.svg);
+}
+
+.case-studies-process .item-process__header--remote-monitoring::before {
+  background-image: url(../images/icons/icon-remote-monitoring.svg);
+}
+
+.case-studies-process .item-process__header--sub-metering::before {
+  background-image: url(../images/icons/icon-sub-metering.svg);
+}
+
+.case-studies-process .item-process__header--audit::before {
+  background-image: url(../images/icons/icon-audit.svg);
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * case studies
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1200px) {
+  .s-case-studies {
+    padding-top: 16.2rem;
+    padding-bottom: 16.2rem;
+  }
+
+}
+
+@media only screen and (max-width:1100px) {
+  .case-studies-process .col-block:nth-child(2n+1) > * {
+    margin-right: 15px;
+  }
+
+  .case-studies-process .col-block:nth-child(2n+2) > * {
+    margin-left: 15px;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  .case-studies-process .col-block:nth-child(2n+1) > * {
+    margin-right: 5px;
+  }
+
+  .case-studies-process .col-block:nth-child(2n+2) > * {
+    margin-left: 5px;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .case-studies-process {
+    margin-top: 6rem;
+  }
+
+  .case-studies-process .col-block:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .case-studies-process .col-block:nth-child(2n+1) > * {
+    margin-right: 0;
+  }
+
+  .case-studies-process .col-block:nth-child(2n+2) > * {
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  .case-studies-process h3 {
+    font-size: 2.1rem;
+    margin-left: 6.5rem;
+  }
+
+  .case-studies-process .item-process__header::before {
+    width: 5.5rem;
+    height: 5.5rem;
+    top: 0;
+    left: 0;
+  }
+
+}
 
 
 /* ===================================================================
