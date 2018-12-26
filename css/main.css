@@ -71,7 +71,7 @@
     font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 0px) {
   .medium-widget-article__image img {
     width: 80px !important;
   }
@@ -80,7 +80,7 @@
   }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) and (min-width: 601px) {
   .medium-widget-article__image img {
     width: 150px !important;
   }
