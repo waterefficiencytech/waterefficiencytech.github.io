@@ -73,7 +73,7 @@
 
 @media only screen and (max-width: 1080px) {
   .medium-widget-article__image img {
-    width: 20px !important;
+    width: 150px !important;
   }
   .medium-widget-article__row {
   flex-direction: column !important;
