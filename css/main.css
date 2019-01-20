@@ -94,6 +94,10 @@
 -moz-box-shadow: 0px 5px 23px -4px rgba(0,0,0,0.58);
 box-shadow: 0px 5px 23px -4px rgba(0,0,0,0.58);
 }
+
+.case-study-header-h3 {
+margin-top: 0 !important;
+}
     
 /* ===================================================================
  * # base style overrides
