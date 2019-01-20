@@ -38,7 +38,7 @@
  *  # clients
  *  # stats
  *  # contact
- *    ## contact button
+ *    ## contact 
  *    ## subscribe
  *  # footer
  *    ## copyright
@@ -1029,6 +1029,12 @@ input[type="button"].btn--primary:focus {
 .btn.full-width,
 button.full-width {
   width: 100%;
+  margin-right: 0;
+}
+
+.btn.half-width,
+button.half-width {
+  width: 50%;
   margin-right: 0;
 }
 
